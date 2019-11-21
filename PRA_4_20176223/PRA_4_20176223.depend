@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1574328334 source:c:\users\grado\desktop\pra_4\pra_4_20176223\main.c
+	<stdio.h>
+	<stdlib.h>
+	"game.h"
+
+1574328680 c:\users\grado\desktop\pra_4\pra_4_20176223\game.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
