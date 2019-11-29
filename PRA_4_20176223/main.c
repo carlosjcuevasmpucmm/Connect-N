@@ -2,18 +2,21 @@
 #include <stdlib.h>
 #include "game.h"
 
+
+
 int main()
 {
-//    //fichas para ganar
-//    int n;
-//    scanf("%d", &n);//& quita el warning
-        int n = 4;
+    //fichas para ganar
+    int n;
+    printf("Introduzca n\n");
+    scanf("%d", &n);//& quita el warning
+//        int n = 4;
         char turn = '2';
     //filas y columnas del juego, segun criterios de la asignacion
     int rows = n+2;
     int columns = n+3;
 
-    //Arreglo bidimensional del juego, utilizando punteros. Porque si...?
+    //Arreglo bidimensional del juego, utilizando punteros.
     char** game_board = (char**) malloc (rows*sizeof(char*));
     for (int i = 0; i< rows; i++){
       game_board[i] = (char*) malloc(columns*sizeof(char));
